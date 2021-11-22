@@ -17,9 +17,9 @@ docker build -t confluent_src_dev_env .
 ```
 * Run Docker image:
 ```
-docker run -it -v /c/Users/<User>/<Confluent Java Source Code>:/mnt/src test bash
+docker run -it -v /c/Users/<User>/<Confluent Java Source Code>:/mnt/src confluent_src_dev_env  bash
 
-docker run -it -v /c/Users/user/kafka-connect-jdbc:/mnt/src test bash
+docker run -it -v /c/Users/user/kafka-connect-jdbc:/mnt/src confluent_src_dev_env  bash
 ```
 * Build Java
 ```
